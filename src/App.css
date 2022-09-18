@@ -1,9 +1,13 @@
 /* Navbar start*/
 .navbar {
   height: 50px;
-  background-color: #003580;
+  /* background-color: #003580; */
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url('https://i.ibb.co/YDj729k/pexels-photo-1591373.jpg');
+  /* background-position-y: -280px; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navContainer {
@@ -31,11 +35,15 @@
 
 /* Header Start */
 .header {
-  background-color: #003580;
+  /* background-color: #003580; */
   color: white;
   display: flex;
   justify-content: center;
   position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url('https://i.ibb.co/YDj729k/pexels-photo-1591373.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .headerContainer {
@@ -304,13 +312,17 @@
 .subscribe {
   width: 100%;
   margin-top: 50px;
-  background-color: #003580;
+  /* background-color: #003580; */
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   padding: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url('https://i.ibb.co/mJjRLkh/pexels-photo-3155666.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subscribeInputContainer>input {

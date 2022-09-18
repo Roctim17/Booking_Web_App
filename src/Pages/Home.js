@@ -4,6 +4,7 @@ import FeaturedProperties from '../Components/FeaturedProperties';
 import Header from '../Components/Header';
 import Navbar from '../Components/Navbar';
 import PropertyList from '../Components/PropertyList';
+import Subscribe from '../Components/Subscribe';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 <PropertyList></PropertyList>
                 <h1 className="homeTitle">Homes guests love</h1>
                 <FeaturedProperties></FeaturedProperties>
+                <Subscribe></Subscribe>
 
             </div>
         </div>
